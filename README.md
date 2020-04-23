@@ -1,16 +1,15 @@
-##_______________________________________________________________
-##|                                                             |  
-##|   IMIS                                                      |  
-##|   INVERSION OF MULTI ISOTOPES IN SEDIMENTARY BASIN          |
-##|_____________________________________________________________|
-##
+<h1>    IMIS
+	INVERSION OF MULTI ISOTOPES IN SEDIMENTARY BASIN
+</h1>
 
-_____________________
-|                    |
-|   DESCRIPTION      |
-|____________________|
+</body>
 
-PRINCIPLE
+<h2> 
+        DESCRIPTION
+</h2>
+
+<b> PRINCIPLE </b> 
+
 This a code running with R https://www.r-project.org/
 This code is analysing cosmogenic nuclide content of rocks collected deep into a sedimentary basin
 10Be, 21Ne and/or 26Al concentrations can be processed
@@ -19,7 +18,8 @@ A rock in the sedimentary pile had a story divided into two stages
 (Stage b) The sample has been sedimented and covered by younger sediments. 
 The sediment rate is random (probability law sr.b1) and the final total sediment thickness is fixed (depth of sample collection)
 
-MAIN INPUT
+<b> MAIN INPUT </b> 
+
 Text file containing the following columns (separated by either space or tab): 
 sample	z	+/-	10Be	+/-	21Ne	+/-	26Al	+/- 
 sample: sample label
