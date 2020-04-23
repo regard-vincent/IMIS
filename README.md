@@ -29,18 +29,17 @@ z: sample depth (m)
 
 Code setup parameters are found in IMIS_input.R, IMIS_cosmoparameters.R, and IMIS_graphical_options.R
 
-OUTPUTS
+<b> OUTPUTS </b> 
+
 Various graphics: 1- Depth vs age; 2- Denudation rate vs time; 3- Nuclide Concentration vs depth;
       4- Sedimentation rate vs Age; 5- Sedimentation rate vs depth
 Chi2 misfit values in output file.
 Production vs. depth. For example file depth.prodBe_br11.txt contains two columns, the first is depth (m), the second the total production for 10Be (at/g)
       
       
-_____________________________
-|                            |
-|   HOW TO RUN THE CODE      |
-|   AND CODE WORKFLOW        |
-|____________________________|
+<h2> 
+        HOW TO RUN THE CODE AND CODE WORKFLOW 
+</h2>
 
 R command to run the code
 first, set the working directory by the command setwd(YOUR WORKING DIRECTORY PATH HERE). Ex: setwd("D:/Vincent/Beryl/10Be_26Al/PB_Inverse/")
@@ -50,7 +49,8 @@ The main input parameters can be tuned in IMIS_input.R
 The main graphical options can be set in IMIS_graphical_options.R
 Cosmogenic parameters can be changed in IMIS_cosmoparameters.R
 
-IMIS WORKFLOW
+<b> IMIS WORKFLOW </b> 
+
 The IMIS_main.R code calls the following codes (described in the following):
 IMIS_input.R            | code containing the input parameters
 IMIS_functions.R        | code containing various functions
@@ -61,10 +61,9 @@ IMIS_graphical_options.R| graphical options
 IMIS_graphs.R           | code for graphical outputs 
 
 
-____________________________________________
-|                                           |
-|   DESCRIPTION OF THE DIFFERENT CODES      |
-|___________________________________________|
+<h2> 
+        DESCRIPTION OF THE DIFFERENT CODES
+</h2>
 
 IMIS_main.R
 -----------
