@@ -146,13 +146,21 @@ IMIS_cosmoparameters.R
 ----------------------
 Contains Cosmo parameters and prepares a production vs depth dataset (matrix with a column for depth, the other for production)
 In the following Production will not be recalculated but evaluated by linear interpolation of this dataset.
+
 Calls DepthProd_Heisinger_Balco2017_vr.R for lu.e and lu.h
+
 Main parameters
+
 Pslhl.Be                | 10Be production at High Latitude Sea Level (not used for lu.e and lu.h)
+
 R2610                   | Spallation production ratio 10Be/26Al
+
 Po.Ne.Be.Ra             | Production Ratio 21Ne/10Be
+
 Att.gr and Att.br       | Attenuation lengths (g/cm2)    
+
 PrRBe, PrRAl, PrRNe     | production ratios or rates, depending on the scheme
+
 z.step.P                | Resolution in depth of the production dataset (m)
 
 
